@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Client - server</title>
+    <style>
+        .container {
+            border: 2px solid rgb(151, 151, 151);
+            width: 500px;
+            margin-left: auto;
+            margin-right: auto;
+            background-color: rgb(204, 204, 204);
+            border-radius: 5px;
+        }
+
+        .row {
+            width: 100%;
+            display: flex;
+            margin: 15px;
+            align-items: center;
+        }
+
+        .row .label {
+            width: 40%;
+            display: block;
+            font-size: 18px;
+        }
+
+        .row .input {
+            display: block;
+            font-size: 18px;
+            width: 50%;
+        }
+
+        .row input[type=submit] {
+            margin: auto;
+            border: 0px;
+            background-color: gray;
+            margin-top: 10px;
+            padding: 10px 30px;
+            border-radius: 10px;
+            width: auto;
+        }
+
+        .thumbnail {
+            margin-right: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Question - 1</h1>
+    <hr>
+    <form action="server.php" method="GET" class="container">
+        <div class="row">
+            <label class="label" for="">Enter Your Email: </label>
+            <input class="input" type="email" name="u_email">
+        </div>
+        <div class="row">
+            <label class="label" for="">Enter Your DOB: </label>
+            <input class="input" type="date" name="u_dob">
+        </div>
+        <div class="row">
+            <input class="input" type="submit" value="Submit" />
+        </div>
+    </form>
+
+    <h1>Question - 2 (e-store)</h1>
+    <hr>
+
+    <div class="container">
+        <div class="row">
+            <img class="thumbnail" src="./statics/remove-item.png" width="30px" height="auto" alt="">
+            <label for="">Phone - item 1</label>
+        </div>
+        <div class="row">
+            <img class="thumbnail" src="./statics/remove-item.png" width="30px" height="auto" alt="">
+            <label for="">Laptop - item 2</label>
+        </div>
+        <div class="row">
+            <img class="thumbnail" src="./statics/remove-item.png" width="30px" height="auto" alt="">
+            <label for="">Power Bank - item 3</label>
+        </div>
+        <div class="row">
+            <img class="thumbnail" src="./statics/remove-item.png" width="30px" height="auto" alt="">
+            <label for="">Xbox - item 4</label>
+        </div>
+        <div class="row">
+            <img class="thumbnail" src="./statics/remove-item.png" width="30px" height="auto" alt="">
+            <label for="">PS5 - item 5</label>
+        </div>
+
+        <form action="server.php" method="GET">
+            <div class="row">
+                <label class="label" for=""> Please select item </label>
+                <select name="items" id="" class="input">
+                    <option value="">--- Choose ---</option>
+                    <option value="0">Phone - Item 1</option>
+                    <option value="1">Laptop - Item 2</option>
+                    <option value="2">Power Bank - Item 3</option>
+                    <option value="3">Xbox - Item 4</option>
+                    <option value="4">PS4 - Item 5</option>
+                </select>
+            </div>
+            <div class="row">
+                <label class="label" for="">Quantity</label>
+                <input type="number" name="qty" class="input" id="">
+            </div>
+            <div class="row">
+                <input class="input" type="submit" value="Submit">
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>

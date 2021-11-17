@@ -1,0 +1,64 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.card-detail {
+    height: 250px;
+    border-radius: 10px;
+}
+
+.value {
+    width: 170px;
+    height: 170px;
+    margin: auto;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.bg-unhealthy {
+    background-color: #fe6a69;
+}
+
+.bg-unhealthy-box {
+    background-color: #942431;
+}
+
+.bg-moderate {
+    background-color: #fdd64b;
+}
+
+.bg-moderate-box {
+    background-color: #8c6c1d;
+}
+
+.bg-Unhealthy-for-sensitive-groups {
+    background-color: #ff9b57;
+}
+
+.bg-Unhealthy-for-sensitive-groups-box {
+    background-color: #974a20;
+}
+
+.bg-very-unhealthy {
+    background-color: #a97abc;
+}
+
+.bg-very-unhealthy-box {
+    background-color: #543b63;
+}
+
+.bg-hazardous {
+    background-color: #a87383;
+}
+
+.bg-hazardous-box {
+    background-color: #573344;
+}
+
+.bg-good {
+    background-color: #a8e05f;
+}
+
+.bg-good-box {
+    background-color: #607631;
+}

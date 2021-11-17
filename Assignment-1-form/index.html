@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+
+    <!-- bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+
+    <!-- Custome -->
+    <link rel="stylesheet" href="./CSS/styles.css">
+
+    <!-- Fontawesome  -->
+    <script src="https://kit.fontawesome.com/ab2079aa5e.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <ol class="top-flex">
+                <li><a href="#">Our shops</a></li>
+                <li><a href="#">Customer service</a></li>
+            </ol>
+
+            <div class="main-head">
+                <a href="" class="logo"><img src="./logo-m.PNG" alt="" width="180px"></a>
+
+                <div class="search-bar mx-auto">
+                    <form action="" class="search-box">
+                        <input type="text" name="search" id="" placeholder="Search">
+                        <label for="" class="mr-auto">Multi-Search<i class="fa fa-search"
+                                aria-hidden="true"></i></label>
+                    </form>
+
+                    <button class="book">
+                        <i class="fa fa-calendar-o" aria-hidden="true"></i>
+                        Book a slot
+                    </button>
+                </div>
+            </div>
+
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="container-fluid">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
+                        aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarText">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    Browse shop
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                    <li><a class="dropdown-item" href="#">Action</a></li>
+                                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">Offers</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">New</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Pecipes</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Inspiration</a>
+                            </li>
+                        </ul>
+                        <span class="navbar-text d-flex">
+                            <ul class="navbar-nav">
+                                <li class="nav-item"><a class="nav-link" href="">Sign in</a></li>
+                                <li class="nav-item"><a class="nav-link" href="">Register</a></li>
+                            </ul>
+                        </span>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <!-- end of header  -->
+
+    <section class="main-page mt-5">
+
+        <div class="container">
+
+            <div class="d-flex fw-bold">
+                <div class="nav-item">Home</div>
+                <div class="nav-item"><i class="fa fa-angle-right text-muted" aria-hidden="true"></i> </div>
+                <div class="nav-item">Customer</div>
+                <div class="nav-item"><i class="fa fa-angle-right text-muted" aria-hidden="true"></i> </div>
+            </div>
+        </div>
+        <hr class="m-0">
+
+        <div class="main-content">
+            <h2 class="fs-1 text-center mt-3">Quality Issue</h2>
+            <div style="border-bottom: 2px solid black; width:100px; margin: 0px auto 15px"></div>
+            <p class="text-center text-muted px-5">
+                Use this form to tell us about any problem you've had with a product you've
+                bough from us. You will be directed to add additional products to the form if you
+                wish once you have selected 'send' and submitted your item.
+            </p>
+            <!-- end of content  -->
+
+            <form action="" class="bg-light p-4">
+                <!-- name area  -->
+                <div class="lead fs-3 pt-2 pb-2">Your name</div>
+
+                <div class="rel">
+                    <label class="d-block fw-bold title-custome" for="">Title</label>
+                    <select class="input-box w-25 pt-4 text-muted" name="title" id="">
+                        <option value="">Please select...</option>
+                        <option value="">Option A</option>
+                        <option value="">Option B</option>
+                        <option value="">Option C</option>
+                    </select>
+                </div>
+                <div>
+                    <input class="input-box" type="text" name="name" id="" placeholder="First name">
+                </div>
+                <div>
+                    <input class="input-box" type="text" name="name" id="" placeholder="Last name">
+                </div>
+
+                <!-- address area  -->
+                <div class="lead fs-3 pt-4 pb-1s">Your address</div>
+                <div>
+                    <input class="input-box" type="text" name="name" id="" placeholder="Address line 1">
+                </div>
+                <div>
+                    <input class="input-box" type="text" name="name" id="" placeholder="Address line 2 (optional)">
+                </div>
+                <div>
+                    <input class="input-box" type="text" name="name" id="" placeholder="Address line 3 (optional)">
+                </div>
+                <div>
+                    <input class="input-box" type="text" name="name" id="" placeholder="Town">
+                </div>
+                <div>
+                    <input class="input-box" type="text" name="name" id="" placeholder="Country (optional)">
+                </div>
+                <div>
+                    <input class="input-box" type="text" name="name" id="" placeholder="Postcode">
+                </div>
+
+                <!-- contact details  -->
+                <div class="lead fs-3 pt-3">Your contact details</div>
+                <label class="d-block lead pb-2" for="">
+                    if we need to clarify this, how should we contact you?
+                </label>
+                <div class="text-muted input-radio">
+                    <input type="radio" name="contact" id=""> Don't mind
+                </div>
+                <div class="text-muted input-radio">
+                    <input type="radio" name="contact" id=""> Email
+                </div>
+                <div class="text-muted input-radio">
+                    <input type="radio" name="contact" id=""> Phone
+                </div>
+
+                <!-- botton fields  -->
+                <div>
+                    <input class="input-box" type="email" name="name" id="" placeholder="Email address">
+                </div>
+                <div>
+                    <input class="input-box" type="number" name="name" id="" placeholder="Phone number (optional)">
+                </div>
+                <div>
+                    <input class="input-box" type="text" name="name" id=""
+                        placeholder="myWaitrose card number (optional)">
+                </div>
+                <div class="text-muted p-3">The number should start 9210 and contain 16 digits</div>
+
+                <div class="d-flex justify-content-around">
+                    <input class="btn btn-secondary px-5" type="submit" value="Submit">
+                    <input class="btn btn-secondary px-5" type="reset" value="Reset">
+                </div>
+            </form>
+        </div>
+        <!-- end of container  -->
+    </section>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

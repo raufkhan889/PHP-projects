@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>User Form</title>
+</head>
+
+<body style="background-color: rgb(182, 182, 182); font-family: sans-serif; margin: 0;">
+
+    <div name="black-bg" style="background-color: rgb(44, 44, 44); height: 180px;">
+        <div name="container" style="width: 1000px; margin-left: 170px; ">
+
+            <div name="top" style="height: 140px; padding-top: 10px;">
+                <div name="left" style="float: left;">
+                    <img src="logo11.png">
+                </div>
+                <div name="right" style="text-align: right; margin-right: 10px;">
+                    <div style="font-size: 22px; color: rgb(212, 211, 211);">Call Now: +44(0)207 870 6446</div>
+                    <div style="margin-top: 20px;"><img src="Twitter_32x32.png"> <img src="Youtube_32x32.png"> </div>
+                    <div style="color: rgb(212, 211, 211); margin-top: 24px; font-size: 14px;">
+                        info@tlt-communications.co.uk</div>
+                </div>
+            </div>
+            <!-- end of top div -->
+
+            <div name="nav-bar" style="height: 60px; background-color: rgb(224, 224, 224);">
+                <div
+                    style="background-color: red; color: white; height: 39px; width: 70px; float: left; margin-top: -5px; margin-left: 55px; text-align: center; padding-top: 26px">
+                    Home
+                </div>
+                <div style="margin-left: 40px; float: left; padding-top: 24px; color: rgb(97, 97, 97);">About US
+                </div>
+            </div>
+            <!-- end of nav-bar  -->
+
+            <div name="main-content" style="background-color: white; height: 450px;">
+                <div name="left" style="width: 250px; float: left; margin-top: 25px; margin-left: 35px;">
+                    <div style="font-size: 24px; color: rgb(202, 1, 1);">Keep in Touch</div>
+                    <div style="margin-top: 20px;">London Business Sale Office</div>
+                    <div style="color: rgb(104, 104, 104); font-size: 14px;">
+                        <div style="margin-top: 20px;">Davenport House,</div>
+                        <div style="margin-top: 8px;">16 Pepper Streek,</div>
+                        <div style="margin-top: 8px;">London Docklands,</div>
+                        <div style="margin-top: 8px;">E14 9RP</div>
+                        <div style="margin-top: 8px;">Phone: +44(0)207 870 6446</div>
+                        <div style="margin-top: 30px;">Retail Sales Enquiry:</div>
+                        <div style="color: rgb(202, 1, 1);">Sales@tiltoncommunication.co.uk</div>
+                    </div>
+                </div>
+                <div name="right"
+                    style="width: 660px; margin-left: 20px; float: left; margin-top: 25px; color: rgb(97, 97, 97);">
+                    <form action="form_user.php" method="GET">
+                        <fieldset>
+                            <legend style="text-align: center; color: rgb(38, 169, 221); font-size: 12px;"><b>Personal
+                                    Details</b>
+                            </legend>
+                            <div name="row-1" style="height: 26px;">
+                                <div style="width: 200px; text-align: right; float: left;">
+                                    <div style="font-size: 11px;">Candidate's Name</div>
+                                    <div style="font-size: 8.5px; margin-top: -2px;">(As per SSC Records)</div>
+                                </div>
+                                <div style="width: 300px; margin-left: 5px; float: left;">
+                                    : <input type="text" name="u_name" style="height: 15px; width: 200px;">
+                                </div>
+                            </div>
+
+                            <div name="row-2" style="height: 26px; margin-top: 8px;">
+                                <div style="width: 200px; text-align: right; float: left;">
+                                    <div style="font-size: 11px;">Mother's Name</div>
+                                    <div style="font-size: 8.5px; margin-top: -2px;">(As per SSC Records)</div>
+                                </div>
+                                <div style="width: 300px; margin-left: 5px; float: left;">
+                                    : <input type="text" name="u_mother" style="height: 15px; width: 200px;">
+                                </div>
+                            </div>
+
+                            <div name="row-3" style="height: 26px; margin-top: 8px;">
+                                <div style="width: 200px; text-align: right; float: left;">
+                                    <div style="font-size: 11px;">Father or Guardian's Name</div>
+                                    <div style="font-size: 8.5px; margin-top: -2px;">(As per SSC Records)</div>
+                                </div>
+                                <div style="width: 300px; margin-left: 5px; float: left;">
+                                    : <input type="text" name="u_guardian" style="height: 15px; width: 200px;">
+                                </div>
+                            </div>
+
+                            <div name="row-4" style="height: 26px; margin-top: 8px;">
+                                <div style="width: 200px; text-align: right; float: left;">
+                                    <div style="font-size: 11px; margin-top: 5px;">Date of Birth</div>
+                                </div>
+                                <span style="width: 300px; margin-left: 5px; font-size: 11px;">
+                                    : Day <select name="dob_day" style="height: 26px; width: 70px;">
+                                        <option><b>DD</b></option>
+                                        <option value="01"><b>01</b></option>
+                                        <option value="02"><b>02</b></option>
+                                        <option value="03"><b>03</b></option>
+                                    </select>
+                                    Month <select name="dob_month" style="height: 26px; width: 70px;">
+                                        <option><b>MM</b></option>
+                                        <option value="01"><b>01</b></option>
+                                        <option value="07"><b>07</b></option>
+                                        <option value="12"><b>12</b></option>
+                                    </select>
+                                    Year <select name="dob_year" style="height: 26px; width: 70px;">
+                                        <option><b>YYYY</b></option>
+                                        <option value="2000"><b>2000</b></option>
+                                        <option value="2001"><b>2001</b></option>
+                                        <option value="2002"><b>2002</b></option>
+                                    </select>
+                                </span>
+                            </div>
+
+                            <div name="row-5" style="height: 26px; margin-top: 12px;">
+                                <div style="width: 200px; text-align: right; float: left;">
+                                    <div style="font-size: 11px; margin-top: 5px;">Gender</div>
+                                </div>
+                                <div style="width: 300px; margin-left: 5px; float: left; font-size: 11px;">
+                                    : <input type="radio" name="gender" value="Male"> <b style="color: black;">Male</b>
+                                    <input type="radio" name="gender" value="Female"> <b
+                                        style="color: black;">Female</b>
+                                </div>
+                            </div>
+
+                            <div name="row-6" style="height: 26px; margin-top: 15px;">
+                                <div style="width: 200px; text-align: right; float: left;">
+                                    <div style="font-size: 11px; margin-top: 5px;">Catgeory</div>
+                                </div>
+                                <div style="width: 300px; margin-left: 5px; float: left;">
+                                    : <select name="category" style="height: 22px; width: 200px;">
+                                        <option>Select</option>
+                                        <option value="CS">CS</option>
+                                        <option value="SE">SE</option>
+                                    </select>
+                                </div>
+                            </div>
+
+                            <div name="row-7" style="height: 26px; margin-top: 15px;">
+                                <div style="width: 200px; text-align: right; float: left;">
+                                    <div style="font-size: 11px;">Seeking Admission under Special</div>
+                                    <div style="font-size: 8.5px; margin-top: -2px;">Catgeory</div>
+                                </div>
+                                <div style="width: 300px; margin-left: 5px; float: left; font-size: 11px;">
+                                    : <span>
+                                        <input type="checkbox" name="s_category[]" value="NCC"> <b
+                                            style="color: black;"> NCC
+                                        </b>
+                                    </span>
+                                    <span style="margin-left: 8px;">
+                                        <input name="s_category[]" value="PC" type="checkbox"> <b
+                                            style="color: black;">PC</b> </span>
+                                    <span style="margin-left: 8px;"><input type="checkbox" name="s_category[]"
+                                            value="CAP"> <b style="color: black;">CAP</b></span>
+                                    <span style="margin-left: 8px;"><input type="checkbox" name="s_category[]"
+                                            value="Sports"> <b style="color: black;">Sports</b></span>
+                                </div>
+                            </div>
+
+                            <div name="row-8" style="height: 26px; margin-top: 20px;">
+                                <div style="width: 200px; text-align: right; float: left;">
+                                    <div style="font-size: 11px; margin-top: 5px;">Local Area Status</div>
+                                </div>
+                                <div style="width: 300px; margin-left: 5px; float: left;">
+                                    : <select name="LAS" style="height: 20px; width: 200px;">
+                                        <option>Select</option>
+                                        <option value="A">A</option>
+                                        <option value="B">B</option>
+                                    </select>
+                                </div>
+                            </div>
+
+                            <div name="row-9" style="height: 26px; margin-top: 8px;">
+                                <div style="width: 200px; text-align: right; float: left;">
+                                    <div style="font-size: 11px; margin-top: 5px;">Minority Community</div>
+                                </div>
+                                <div style="width: 300px; margin-left: 5px; float: left;">
+                                    : <select name="Minority" style="height: 20px; width: 200px;">
+                                        <option>None</option>
+                                        <option value="A">A</option>
+                                        <option value="B">B</option>
+                                    </select>
+                                </div>
+                            </div>
+
+                            <div name="row-10" style="height: 26px; margin-top: 8px; float: left;">
+                                <div style="width: 200px; text-align: right; float: left;">
+                                    <div style="font-size: 11px;">Annual Parental Income from all</div>
+                                    <div style="font-size: 8.5px; margin-top: -2px;">sources</div>
+                                </div>
+                                <div style="width: 270px; margin-left: 5px; float: left; font-size: 11px;">
+                                    : <input type="radio" name="annual_income" value="Upto One Lakh"> <b
+                                        style="color: black;">Upto One
+                                        Lakh</b>
+                                    <input type="radio" name="annual_income" value="Upto Two Lakh"> <b
+                                        style="color: black;">Upto Two
+                                        Lakhs</b>
+                                </div>
+                            </div>
+                            <div name="button" style="margin-top: 15px;">
+                                <input type="submit" value="Submit form">
+                                <input type="reset" value="Reset">
+                            </div>
+                        </fieldset>
+                    </form>
+                </div>
+            </div>
+            <!-- end of main-content  -->
+        </div>
+    </div>
+</body>
+
+</html>

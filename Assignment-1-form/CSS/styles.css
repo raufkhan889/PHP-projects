@@ -1,0 +1,146 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.top-flex {
+  display: flex;
+  list-style: none;
+  justify-content: flex-end;
+}
+
+.top-flex li a {
+  text-decoration: none;
+  color: black;
+  font-size: 14px;
+  padding-left: 30px;
+  font-weight: bold;
+}
+
+.main-head {
+  display: flex;
+  align-items: center;
+}
+
+.search-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 550px;
+  height: 30px;
+}
+
+.search-bar .search-box {
+  border: 1px solid black;
+  width: 370px;
+  padding: 3px 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.search-bar .search-box input {
+  border: none;
+  color: rgb(105, 105, 105);
+  outline: none;
+}
+.search-bar .search-box label {
+  font-size: 12px;
+  text-decoration: underline;
+}
+
+.search-bar .search-box label i {
+  font-size: 16px;
+  padding-left: 8px;
+  padding-top: 3px;
+}
+
+.search-bar button {
+  background-color: rgb(68, 68, 68);
+  color: rgb(255, 255, 255);
+  outline: none;
+  border: none;
+  height: 32px;
+  width: 140px;
+  text-align: center;
+}
+.nav-item {
+  padding: 0px 10px;
+}
+.nav-item .nav-link {
+  font-weight: bold;
+}
+
+header {
+  border-bottom: 2px solid rgb(199, 1, 1);
+}
+
+.main-page {
+  background: rgb(226, 226, 226);
+}
+
+.main-content {
+  width: 50%;
+  margin: auto;
+}
+
+/* form  */
+
+.input-box {
+  background: rgb(235, 235, 235);
+  outline: none;
+  border: 0;
+  border-bottom: 1px solid gray;
+  width: 100%;
+  padding: 14px;
+  margin-top: 15px;
+  font-size: 17px;
+}
+.rel {
+  position: relative;
+}
+
+.title-custome {
+  position: absolute;
+  left: 18px;
+  top: 18px;
+}
+
+.input-radio {
+  border: 1px solid rgba(128, 128, 128, 0.479);
+  margin-bottom: 12px;
+  padding: 5px 20px;
+  font-size: 17px;
+  cursor: pointer;
+}
+
+.input-radio:hover {
+  border: 1px solid rgb(59, 59, 59);
+}
+
+.active {
+  color: rgb(199, 1, 1) !important;
+}
+
+/* ******************** Media query for small devices ********************* */
+@media (max-width: 992px) {
+  .main-head {
+    flex-direction: column;
+    height: 140px;
+  }
+
+  .search-bar {
+    flex-direction: column;
+    margin: 0px !important;
+  }
+
+  .logo,
+  .search-box,
+  .book {
+    margin-bottom: 10px;
+  }
+
+  .main-content {
+    width: 70%;
+  }
+}
