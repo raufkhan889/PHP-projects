@@ -13,4 +13,7 @@
     <!-- bootstrap css cdn  -->
     <link rel="stylesheet" href="CSS/bootstrap.min.css">
 
+    <!-- Custome CSS -->
+    <link rel="stylesheet" href="CSS/main.css">
+
 </head>

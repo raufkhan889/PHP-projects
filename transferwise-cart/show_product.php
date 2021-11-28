@@ -55,7 +55,7 @@ $product->close_db();
 
                     <div class="fs-3 py-2">&starf;&starf;&starf;&starf;&star;</div>
 
-                    <button type="submit" class="mt-5 d-block w-100 btn btn-success">Add to Card</button>
+                    <button type="submit" class="mt-5 d-block w-100 btn btn-warning">Add to Card</button>
                 </div>
             </div>
         </div>

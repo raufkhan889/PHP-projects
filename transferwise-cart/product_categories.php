@@ -26,7 +26,7 @@ $a_product->close_db();
             if ($cat_products == NULL || $cat == "" || $cat == 'error') {
                 echo '<div class="alert alert-danger my-4">No Category Found</div>';
             } else {
-                echo '<h1 class="text-center my-4"> Cetagory </h1>';
+                echo '<h1 class="text-center my-4"> Category </h1>';
 
                 foreach ($cat_products as $product) {
                     echo '

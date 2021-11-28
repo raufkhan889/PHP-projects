@@ -5,6 +5,7 @@ include('airvisual_class.php');
 $city = "";
 $state = "";
 $country = "";
+
 if (!empty($_GET['city']) && !empty($_GET['state']) && !empty($_GET['country'])) {
     $city = $_GET['city'];
     $state = $_GET['state'];
